@@ -63,7 +63,7 @@ class GetUpcomingBillsTool(BaseTool):
     
     def _run(self, query: str = "") -> str:
         try:
-            # For now, get all bills and filter (you can add specific endpoint later)
+            
             response = requests.get(f"{SPRING_BOOT_API}/bills")
             if response.status_code == 200:
                 bills = response.json()
@@ -87,7 +87,7 @@ class CalculatorTool(BaseTool):
     
     def _run(self, expression: str) -> str:
         try:
-            # Safe eval for basic math
+            
             result = eval(expression, {"__builtins__": {}}, {})
             return f"Result: {result}"
         except Exception as e:

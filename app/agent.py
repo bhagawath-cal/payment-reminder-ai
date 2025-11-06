@@ -21,14 +21,13 @@ class PaymentReminderAgent:
         """
         Process user message and return AI response
         """
-        # Add user message to history
         if use_memory:
             self.conversation_history.append({
                 "role": "user",
                 "content": user_message
             })
         
-        # Check if we need to use tools
+        
         tool_response = self._check_and_use_tools(user_message)
         
         if tool_response:
@@ -36,7 +35,7 @@ class PaymentReminderAgent:
         else:
             context = user_message
         
-        # Call LLM
+        
         try:
             ai_response = self._call_llm(context)
             
@@ -56,7 +55,7 @@ class PaymentReminderAgent:
         """
         message_lower = message.lower()
         
-        # Check for bill-related queries
+        
         if any(word in message_lower for word in ['bills', 'payment', 'due', 'owe', 'upcoming']):
             if 'upcoming' in message_lower or 'due' in message_lower:
                 tool = self.tools['get_upcoming_bills']
@@ -65,14 +64,14 @@ class PaymentReminderAgent:
                 tool = self.tools['get_bills']
                 return tool._run()
         
-        # Check for bill creation
+        
         if any(word in message_lower for word in ['create', 'add', 'new bill', 'remind me']):
-            # Extract bill info (simplified - you can make this smarter)
+            
             return "To create a bill, please provide: Bill Name, Amount, Due Date, and Category"
         
-        # Check for calculations
+        
         if any(word in message_lower for word in ['calculate', 'total', 'sum', '+', '-', '*', '/']):
-            # Try to extract math expression
+            
             import re
             numbers = re.findall(r'\d+\.?\d*', message)
             if len(numbers) >= 2:
@@ -110,7 +109,7 @@ class PaymentReminderAgent:
             
             if response.status_code == 200:
                 result = response.json()
-                # Extract the response text
+                
                 if 'choices' in result and len(result['choices']) > 0:
                     return result['choices'][0]['message']['content']
                 return "I received your message but couldn't generate a response."
