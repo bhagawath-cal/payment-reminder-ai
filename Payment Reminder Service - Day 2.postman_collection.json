@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "cf50e2cd-d15f-4ff9-a57a-1d5eae14cce2",
+		"name": "Payment Reminder Service - Day 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49834887",
+		"_collection_link": "https://bkanta-3010270.postman.co/workspace/Cal-Kantamneni's-Workspace~c6e61675-a510-4c4d-87b4-5fb82f8e66ad/collection/49834887-cf50e2cd-d15f-4ff9-a57a-1d5eae14cce2?action=share&source=collection_link&creator=49834887"
+	},
+	"item": [
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Bills",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create a Bill",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update a Bill",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Bill",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "FastAPI Health",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Chat with AI",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
