@@ -1,0 +1,82 @@
+bill_name,amount,category
+Electric Bill,120.0,Utilities
+Electricity Payment,135.0,Utilities
+Power Company,98.0,Utilities
+Water Bill,45.0,Utilities
+Water Service,52.0,Utilities
+Gas Bill,78.0,Utilities
+Natural Gas,82.0,Utilities
+Trash Collection,35.0,Utilities
+Sewer Service,42.0,Utilities
+City Utilities,155.0,Utilities
+Rent Payment,1200.0,Housing
+Apartment Rent,1500.0,Housing
+Monthly Rent,1350.0,Housing
+Mortgage Payment,1800.0,Housing
+Home Loan,2100.0,Housing
+HOA Fees,250.0,Housing
+Property Management,150.0,Housing
+Landlord Payment,1400.0,Housing
+Car Payment,350.0,Transportation
+Auto Loan,425.0,Transportation
+Car Lease,380.0,Transportation
+Gas Station,45.0,Transportation
+Fuel,52.0,Transportation
+Car Insurance,150.0,Insurance
+Auto Insurance,145.0,Insurance
+Uber,25.0,Transportation
+Lyft,30.0,Transportation
+Public Transit,85.0,Transportation
+Comcast Internet,85.0,Internet & Phone
+AT&T Internet,95.0,Internet & Phone
+Verizon Wireless,120.0,Internet & Phone
+T-Mobile,110.0,Internet & Phone
+Phone Bill,75.0,Internet & Phone
+Internet Service,90.0,Internet & Phone
+Cable TV,145.0,Internet & Phone
+Spectrum,100.0,Internet & Phone
+Health Insurance,350.0,Insurance
+Life Insurance,85.0,Insurance
+Dental Insurance,45.0,Insurance
+Vision Insurance,25.0,Insurance
+Renters Insurance,180.0,Insurance
+Homeowners Insurance,1200.0,Insurance
+Netflix,15.99,Subscriptions
+Spotify,9.99,Subscriptions
+Hulu,12.99,Subscriptions
+Disney Plus,7.99,Subscriptions
+Amazon Prime,139.0,Subscriptions
+YouTube Premium,11.99,Subscriptions
+Apple Music,9.99,Subscriptions
+HBO Max,14.99,Subscriptions
+Gym Membership,45.0,Subscriptions
+Grocery Store,150.0,Food & Groceries
+Walmart,85.0,Food & Groceries
+Target,120.0,Food & Groceries
+Whole Foods,200.0,Food & Groceries
+Safeway,95.0,Food & Groceries
+Restaurant,45.0,Food & Groceries
+Food Delivery,30.0,Food & Groceries
+DoorDash,28.0,Food & Groceries
+UberEats,35.0,Food & Groceries
+Doctor Visit,125.0,Healthcare
+Dentist,200.0,Healthcare
+Pharmacy,35.0,Healthcare
+CVS,28.0,Healthcare
+Walgreens,22.0,Healthcare
+Medical Bill,450.0,Healthcare
+Hospital,2500.0,Healthcare
+Prescription,45.0,Healthcare
+Tuition,5000.0,Education
+Student Loan,350.0,Education
+School Fee,125.0,Education
+Books,85.0,Education
+Course Fee,250.0,Education
+Movie Theater,45.0,Entertainment
+Concert Tickets,85.0,Entertainment
+Sports Event,150.0,Entertainment
+Gaming,60.0,Entertainment
+Miscellaneous,50.0,Other
+Cash Withdrawal,20.0,Other
+ATM Fee,3.0,Other
+Bank Fee,12.0,Other
